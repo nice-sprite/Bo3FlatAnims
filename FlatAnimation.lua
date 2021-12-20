@@ -12,7 +12,8 @@ FlatAnimation.verifyTransforms = {
     setRotY = true,
     setRotZ = true,
     setZoom = true,
-    setShaderVector = true
+    setShaderVector = true,
+    setScale = true
 }
 function TableHasElementWithId(tbl, id)
     for k, v in ipairs(tbl) do
